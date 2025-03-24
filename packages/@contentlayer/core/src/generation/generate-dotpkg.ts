@@ -4,7 +4,7 @@ import type { E, HasClock, HasConsole } from '@contentlayer2/utils/effect'
 import { Array, Chunk, Either, OT, pipe, S, T } from '@contentlayer2/utils/effect'
 import type { GetContentlayerVersionError } from '@contentlayer2/utils/node'
 import { getContentlayerVersion } from '@contentlayer2/utils/node'
-import { camelCase } from 'camel-case'
+import { camelCase } from 'change-case'
 import type { PackageJson } from 'type-fest'
 import * as URL from 'url'
 
